@@ -53,7 +53,7 @@
       <div>
       <img src="${phone.image}" class="card-img-top " alt="...">
       <div class="card-body">
-          <h5 class="card-title">Name: ${phone.phone_name}</h5>
+          <h4 class="card-title">Name: ${phone.phone_name}</h4>
           <p class="card-text"> Brand: ${phone.brand}</p>
          <button onclick="phonedetails('${phone.slug}')">Details</button>
 
@@ -105,7 +105,7 @@
 
      div.innerHTML = `
     <div class=" phonein-formation p-3 d-flex justify-content-center bg-dark " > 
-    <img src="${phone.image}" style="width: 15rem; class=" p-3 card-img-top" alt="..."></div>
+    <img src="${phone.image}" style="width: 20rem; class=" p-3 card-img-top" alt="..."></div>
 
 
     <div class="card-body bg-dark text-light">

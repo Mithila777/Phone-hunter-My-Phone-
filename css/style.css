@@ -46,11 +46,12 @@
 
   @media(max-width:500px) {
     .card-img-top{
-    width: 35%;
+    width: 100%;
     height: 30vh;
 }
 .allphone {
-  width:100%;
+  width:90%;
+  margin:0 auto;
   height: 60vh; 
   background-color: white;
 }
@@ -59,11 +60,9 @@ h5{
 }
 
 button{
-  background-color: black;
-  color:white;
-  border: none;
+  
+ 
   padding: 2px 8px;
-  box-shadow: 4px 4px 2px 1px rgba(0,0,0, .5)  ;
 }
 
 td{
@@ -76,5 +75,11 @@ td{
   margin: 0 auto;
 
 }
-
+#smalltext{
+  font-size: 2vw;
+  margin-top: 0%;
+}
+.phoneinfo{
+ margin-left: 10%;
+}
   }
