@@ -109,14 +109,14 @@
 
 
      div.innerHTML = `
-    <div class=" phonein-formation p-3 d-flex justify-content-center bg-dark " > 
-    <img src="${phone.image}" style="width: 20rem; class=" p-3 card-img-top" alt="..."></div>
+    <div class=" phonein-formation p-3 d-flex justify-content-center  bg-dark " > 
+    <img src="${phone.image}" style="width: 20rem; class="  p-3 card-img-top" alt="..."></div>
 
 
     <div class="card-body bg-dark text-light">
     <h5 class="card-title">${phone.name}</h5>
    
-    <table class="table table-bordered table-dark tabel-responsive-sm tabel-responsive-md">
+    <table class="table table-bordered table-dark tabel-responsive-sm tabel-responsive-md ">
 
     <tr>
     <th  scope="row">Brand</th>
