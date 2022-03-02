@@ -7,8 +7,9 @@
       //check input value
 
     if (myphone == '') {
-      document.getElementById('phoneDetail').innerHTML='';
       document.getElementById('massage').innerText="please write a phone name";
+      document.getElementById('phoneDetail').innerHTML='';
+
 
     }
 
@@ -33,7 +34,7 @@
         //massage  if  search phone is not found
 
      if (phone.length == 0) {
-       document.getElementById('massage').innerText="This phone is detail is not  available";
+       document.getElementById('massage').innerText="This phone is not  available";
 
      }
       
@@ -53,7 +54,7 @@
       <div>
       <img src="${phone.image}" class="card-img-top " alt="...">
       <div class="card-body">
-          <h4 class="card-title">Name: ${phone.phone_name}</h4>
+          <h5 class="card-title">Name: ${phone.phone_name}</h5>
           <p class="card-text"> Brand: ${phone.brand}</p>
          <button onclick="phonedetails('${phone.slug}')">Details</button>
 
@@ -63,10 +64,14 @@
       </div>
 
        `;
+
+
        phonelist.appendChild(div);
         
-       
+
      })
+
+
 }
  
 //phone detail
