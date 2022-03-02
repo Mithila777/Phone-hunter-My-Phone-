@@ -8,7 +8,7 @@
 
     if (myphone == '') {
       document.getElementById('phoneDetail').innerHTML='';
-      document.getElementById('massage').innerText="please input a phone name";
+      document.getElementById('massage').innerText="please write a phone name";
 
     }
 
