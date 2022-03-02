@@ -7,11 +7,74 @@
     margin-top: 0%;
   }
   .card-img-top{
-      width: 50%;
-      height: 20vh;
+      width: 60%;
+      height: 30vh;
+      padding-top: 5%;
   }
-  .card {
+  .allphone {
     width:100%;
-    height: 44vh; 
+    height: 50vh; 
     background-color: white;
+    padding: 10%;
+     
+  }
+  
+  button{
+    border:2px solid white;
+   background-color: black;
+    color:white;
+    padding: 4px 16px ;
+}
+ 
+ td{
+  word-wrap: break-word;
+  min-width: 160px;
+  max-width: 160px;
+ }
+
+ #phoneDetail{
+         width:60%;
+         margin: 0 auto;
+         
+ }
+ #massage{
+
+       color: white;
+        font-size: 3vw;
+        text-align: center;
+ }
+
+  @media(max-width:500px) {
+    .card-img-top{
+    width: 35%;
+    height: 30vh;
+}
+.allphone {
+  width:100%;
+  height: 60vh; 
+  background-color: white;
+}
+h5{
+  font-size: 2vw;
+}
+
+button{
+  background-color: black;
+  color:white;
+  border: none;
+  padding: 2px 8px;
+  box-shadow: 4px 4px 2px 1px rgba(0,0,0, .5)  ;
+}
+
+td{
+  word-wrap: break-word;
+  min-width: 100px;
+  max-width: 100px;
+ }
+ #phoneDetail{
+  width:90%;
+  margin: 0 auto;
+
+}
+
   }
